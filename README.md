@@ -21,11 +21,11 @@ are trying make everyone's lives easier.
 
 ## Diego Cunha
   Second year student of Information Systems on 
-  Amazona's Estate University, one of the 
+  Amazonas's State University, one of the 
   founders of the original idea of the app 
 ## Erica Amoedo
   Second year student of Information Systems on 
-  Amazona's Estate University, one of the 
+  Amazonas's State University, one of the 
   founders of the original idea of the app 
 ## William Freitas
   Fourth year student of Computer Engineering. 
