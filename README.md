@@ -7,14 +7,28 @@ This is an web application to make your life easier while ordering a simple swee
 And as for the crew involved:
 
 ```markdown
-Syntax highlighted code block
+Just students who love to improve their abilities and are trying make everyone's lives easier.
 
-# Diego Cunha
-  2 year student of Information Systems on Amazona's Estate University, one of the founders of the original idea of the app 
-## Erika
-  2 year student of Information Systems on Amazona's Estate University, one of the founders of the original idea of the app 
-### Header 3
+## Diego Cunha
+  2 year student of Information Systems on 
+  Amazona's Estate University, one of the 
+  founders of the original idea of the app 
+## Erica Amoedo
+  2 year student of Information Systems on 
+  Amazona's Estate University, one of the 
+  founders of the original idea of the app 
+## William Freitas
+  Fourth year student of Computer Engineering. 
+  Intern in InDT on Test Automation and 
+  responsible for both the app's website and 
+  it's tests.
+ ## Leticia Passos
+  Fourth year student of Computer Engineering. 
+  Employee at Ludus. Software developer. 
+  Group's specialist on Web Programming.
 
+## Paulo Marinho
+  __to be inserted__
 - Bulleted
 - List
 
