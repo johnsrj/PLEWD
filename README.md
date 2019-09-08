@@ -2,16 +2,17 @@
 
 This is an web application to make your life easier while ordering a simple sweet
 
-### Markdown
+### The code
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+And as for the crew involved:
 
 ```markdown
 Syntax highlighted code block
 
-# Descrição
-aqui
-## Header 2
+# Diego Cunha
+  2 year student of Information Systems on Amazona's Estate University, one of the founders of the original idea of the app 
+## Erika
+  2 year student of Information Systems on Amazona's Estate University, one of the founders of the original idea of the app 
 ### Header 3
 
 - Bulleted
