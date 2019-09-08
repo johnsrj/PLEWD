@@ -42,7 +42,7 @@ For more details see [PLEWD repository page](https://github.com/WilliamFreitas21
 
 ### Support or Contact
 
-Having trouble with Pages? Talk to us:
+Having trouble with our project? Talk to us:
 
 Will Freitas: wdvcf.eng16@uea.edu.br
 
