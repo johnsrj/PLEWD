@@ -54,7 +54,9 @@ Erica Amoedo: _to be inserted_
 
 Paulo Marinho: _to be inserted_
 
-And if that doesn't work, checkout the crew's social media links:
+
+_And if that doesn't work, checkout the crew's social media links:_
+
 [William Freitas](https://www.instagram.com/willfreitas217/)
 
 
