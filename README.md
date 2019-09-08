@@ -22,7 +22,7 @@ Just students who love to improve their abilities and are trying make everyone's
   Intern in InDT on Test Automation and 
   responsible for both the app's website and 
   it's tests.
- ## Leticia Passos
+## Leticia Passos
   Fourth year student of Computer Engineering. 
   Employee at Ludus. Software developer. 
   Group's specialist on Web Programming.
