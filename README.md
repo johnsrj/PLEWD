@@ -7,6 +7,10 @@ This is an web application to make your life easier while ordering a simple swee
 
 Still learning the basics of what is needed to implement this app.
 
+### The idea
+
+After some inquiry was made for both people that sell and buy sweets around the college, the following model was established for the app: [app's template](https://drive.google.com/open?id=1-yVTpFYhKurC131CeMKgHEvO4aurP-yJ).
+
 ### Members
 
 And as for the crew involved:
