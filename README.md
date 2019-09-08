@@ -20,11 +20,11 @@ Just students who love to improve their abilities and
 are trying make everyone's lives easier.
 
 ## Diego Cunha
-  2 year student of Information Systems on 
+  Second year student of Information Systems on 
   Amazona's Estate University, one of the 
   founders of the original idea of the app 
 ## Erica Amoedo
-  2 year student of Information Systems on 
+  Second year student of Information Systems on 
   Amazona's Estate University, one of the 
   founders of the original idea of the app 
 ## William Freitas
