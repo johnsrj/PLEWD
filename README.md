@@ -43,11 +43,11 @@ For more details see [PLEWD repository page](https://github.com/WilliamFreitas21
 ### Support or Contact
 
 Having trouble with Pages? Talk to us:
-Will Freitas: wdvcf.eng16@uea.edu.br
-Diego Cunha: dsdc.snf18@uea.edu.br
-Leticia Passos: _to be inserted_
-Erica Amoedo: _to be inserted_
-Paulo Marinho: _to be inserted_
+## Will Freitas: wdvcf.eng16@uea.edu.br
+## Diego Cunha: dsdc.snf18@uea.edu.br
+## Leticia Passos: _to be inserted_
+## Erica Amoedo: _to be inserted_
+## Paulo Marinho: _to be inserted_
 
 And if that doesn't work, checkout the crew's social media links:
 [William Freitas](https://www.instagram.com/willfreitas217/)
