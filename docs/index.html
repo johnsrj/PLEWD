@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;background-color:pink;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>PLEWD</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">O que é?</a> 
+    <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Vantagens</a> 
+    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Documentação</a> 
+    <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Time</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contato</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>PLEWD</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class="w3-jumbo"><b>PLEWD</b></h1>
+    <hr style="width:50px;border:5px solid pink" class="w3-round">
+  </div>
+  
+  <!-- Photo grid (modal) -->
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <img src="pote.jpeg" style="width:100%">
+	  <img src="bolo.jpeg" style="width:100%;padding-top:1px">
+	  <img src="doces2.jpg" style="width:100%;padding-top:10px">
+	  
+    </div>
+
+    <div class="w3-half">
+	  <img src="trufa1.jpg" style="width:100%">
+	  <img src="doce.jpeg" style="width:100%;padding-bottom:10px">
+	  <img src="briga.jpg" style="width:100%" >
+    </div>
+  </div>
+
+  <!-- Services -->
+  <div class="w3-container" id="services" style="margin-top:75px">
+    <div style="color:hotpink;font-size: 50px"><b>O que é?</b></div>
+    <hr style="width:50px;border:5px solid pink" class="w3-round">
+    <p>
+		O PLEWD é um espaço que facilita o comércio de guloseimas entre alunos da Universidade do Estado do Amazonas,
+		assim o contato é feito por meio do PLEWD, podendo ser feitas reservas, encomendas, checagem de produtos disponíveis e muito mais.  
+    </p>
+  </div>
+  
+  <!-- Packages / Pricing Tables -->
+  <div class="w3-container" id="packages" style="margin-top:75px">
+		<div style="color:hotpink;font-size: 50px"><b>Vantagens</b></div>
+		<hr style="width:50px;border:5px solid pink" class="w3-round">
+	 </div>
+	
+	  <div class="w3-row-padding">
+		<div class="w3-half w3-margin-bottom">
+		  <ul class="w3-ul w3-light-pink w3-center">
+			<li class="w3-dark-grey w3-xlarge w3-padding-32" style="background-color:pink">Sem PLEWD</li>
+			<li class="w3-padding-16">Sem Consulta aos produtos disponíveis</li>
+			<li class="w3-padding-16">Pagamento em dinheiro na maioria dos casos</li>
+			<li class="w3-padding-16">Difícil acesso aos vendedores</li>
+		  </ul>
+		</div>
+			
+		<div class="w3-half">
+		  <ul class="w3-ul w3-light-grey w3-center">
+			<li class="w3-red w3-xlarge w3-padding-32">Com PLEWD</li>
+			<li class="w3-padding-16">Fácil contato entre vendedores e clientes</li>
+			<li class="w3-padding-16">Pagamento pode ser feito pelo app</li>
+			<li class="w3-padding-16">Possibilidade de vizualizar todos os vendedores</li>
+		  </ul>
+		</div>
+	  </div>
+
+  <!-- Docs -->
+  	<div class="w3-container" id="services" style="margin-top:75px">
+		<div style="color:hotpink;font-size: 50px"><b>Documentação</b></div>
+		<hr style="width:50px;border:5px solid pink" class="w3-round">
+		<div class="w3-col m4 w3-margin-bottom">
+			<div class="w3-light-grey">
+				<img src="diagrama.png" alt="Jane" style="width:100%">
+				<div class="w3-container">
+					<h3>Ver. 1 Diagrama de Atividades</h3>
+					<p></p>
+				</div>
+			</div>
+		</div>
+		<div>
+				<div class="w3-col m4 w3-margin-bottom">
+						<div class="w3-light-grey">
+							<img src="diagrama.png" alt="Jane" style="width:100%">
+							<div class="w3-container">
+								<h3>Ver. 2 Diagrama de Atividades</h3>
+								<p></p>
+							</div>
+						</div>
+					</div>
+		</div>
+	</div>
+
+  <!-- The Team -->
+  <div style="color:hotpink;font-size: 50px"><b>O Time</b></div>
+  <hr style="width:50px;border:5px solid pink" class="w3-round">
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="Diego.jpg" style="width:100%">
+        <div class="w3-container">
+          <h3>Diego Cunha</h3>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="profile.jpeg" alt="Jane" style="width:100%">
+        <div class="w3-container">
+          <h3>Erica Amoedo</h3>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="leticia.jpg" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>Leticia Vieira</h3>
+          <p></p>
+        </div>
+      </div>
+	</div>
+	
+	<div class="w3-col m4 w3-margin-bottom">
+			<div class="w3-light-grey">
+			  <img src="profile.jpeg" alt="Jane" style="width:100%">
+			  <div class="w3-container">
+				<h3>Paulo Marinho</h3>
+				<p></p>
+			  </div>
+			</div>
+	</div>
+	<div class="w3-col m4 w3-margin-bottom">
+			<div class="w3-light-grey">
+			  <img src="william.jpg" alt="Jane" style="width:100%">
+			  <div class="w3-container">
+				<h3>William</h3>
+				<p></p>
+			  </div>
+			</div>
+		  </div>
+  </div>
+
+    
+  <!-- Contact -->
+  <div class="w3-container" id="contact" style="margin-top:75px">
+		<div style="color:hotpink;font-size: 50px"><b>Contato</b></div>
+    <hr style="width:50px;border:5px solid pink" class="w3-round">
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Endereço: Av. Darcy Vargas, 1.200 - Parque Dez de Novembro, Manaus - AM, 69050-020</label>
+      </div>
+      <div class="w3-section">
+        <label>Email: plewd@gmail.com</label>
+      </div>
+  </div>
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
+
