@@ -22,16 +22,17 @@ are trying make everyone's lives easier.
 ## Diego Cunha
   Second year student of Information Systems on 
   Amazonas's State University, one of the 
-  founders of the original idea of the app 
+  founders of the original idea of the app
+  Intern at SEPLANCTI with experience on finances.
 ## Erica Amoedo
   Second year student of Information Systems on 
   Amazonas's State University, one of the 
   founders of the original idea of the app 
 ## William Freitas
   Fourth year student of Computer Engineering. 
-  Intern in InDT on Test Automation and 
+  Intern at InDT on Test Automation and 
   responsible for both the app's website and 
-  it's tests.
+  it's tests. 
 ## Leticia Vieira
   Fourth year student of Computer Engineering. 
   Employee at Ludus. Software developer. 
