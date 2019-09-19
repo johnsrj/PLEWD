@@ -1,200 +1,544 @@
 <!DOCTYPE html>
-<html lang="en">
-<title>W3.CSS Template</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
-<style>
-body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
-body {font-size:16px;}
-.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
-.w3-half img:hover{opacity:1}
-</style>
-<body>
+<html class="no-js" lang="en">
+<head>
 
-<!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;background-color:pink;" id="mySidebar"><br>
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
-  <div class="w3-container">
-    <h3 class="w3-padding-64"><b>PLEWD</b></h3>
-  </div>
-  <div class="w3-bar-block">
-    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">O que é?</a> 
-    <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Vantagens</a> 
-    <a href='https://github.com/WilliamFreitas217/PLEWD' onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Documentação</a> 
-    <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Time</a> 
-    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contato</a>
-  </div>
-</nav>
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>PLEWD</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<!-- Top menu on small screens -->
-<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
-  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
-  <span>PLEWD</span>
-</header>
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
 
-<!-- !PAGE CONTENT! -->
-<div class="w3-main" style="margin-left:340px;margin-right:40px">
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
 
-  <!-- Header -->
-  <div class="w3-container" style="margin-top:80px" id="showcase">
-    <h1 class="w3-jumbo"><b>PLEWD</b></h1>
-    <hr style="width:50px;border:5px solid pink" class="w3-round">
-  </div>
-  
-  <!-- Photo grid (modal) -->
-  <div class="w3-row-padding">
-    <div class="w3-half">
-      <img src="pote.jpeg" style="width:100%">
-	  <img src="bolo.jpeg" style="width:100%;padding-top:1px">
-	  <img src="doces2.jpg" style="width:100%;padding-top:10px">
-	  
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="Free_Sample_By_Wix" type="image/x-icon">
+    <link rel="icon" href="Free_Sample_By_Wix" type="image/x-icon">
+
+</head>
+
+<body id="top">
+
+    <div id="preloader">
+        <div id="loader"></div>
     </div>
 
-    <div class="w3-half">
-	  <img src="trufa1.jpg" style="width:100%">
-	  <img src="doce.jpeg" style="width:100%;padding-bottom:10px">
-	  <img src="briga.jpg" style="width:100%" >
-    </div>
-  </div>
 
-  <!-- Services -->
-  <div class="w3-container" id="services" style="margin-top:75px">
-    <div style="color:hotpink;font-size: 50px"><b>O que é?</b></div>
-    <hr style="width:50px;border:5px solid pink" class="w3-round">
-    <p>
-		O PLEWD é um espaço que facilita o comércio de guloseimas entre alunos da Universidade do Estado do Amazonas,
-		assim o contato é feito por meio do PLEWD, podendo ser feitas reservas, encomendas, checagem de produtos disponíveis e muito mais.  
-    </p>
-  </div>
-  
-  <!-- Packages / Pricing Tables -->
-  <div class="w3-container" id="packages" style="margin-top:75px">
-		<div style="color:hotpink;font-size: 50px"><b>Vantagens</b></div>
-		<hr style="width:50px;border:5px solid pink" class="w3-round">
-	 </div>
-	
-	  <div class="w3-row-padding">
-		<div class="w3-half w3-margin-bottom">
-		  <ul class="w3-ul w3-light-pink w3-center">
-			<li class="w3-dark-grey w3-xlarge w3-padding-32" style="background-color:pink">Sem PLEWD</li>
-			<li class="w3-padding-16">Sem Consulta aos produtos disponíveis</li>
-			<li class="w3-padding-16">Pagamento em dinheiro na maioria dos casos</li>
-			<li class="w3-padding-16">Difícil acesso aos vendedores</li>
-		  </ul>
-		</div>
-			
-		<div class="w3-half">
-		  <ul class="w3-ul w3-light-grey w3-center">
-			<li class="w3-red w3-xlarge w3-padding-32">Com PLEWD</li>
-			<li class="w3-padding-16">Fácil contato entre vendedores e clientes</li>
-			<li class="w3-padding-16">Pagamento pode ser feito pelo app</li>
-			<li class="w3-padding-16">Possibilidade de vizualizar todos os vendedores</li>
-		  </ul>
-		</div>
-	  </div>
+    <!-- header 
+    ================================================== -->
+    <header class="s-header">
 
-  <!-- The Team -->
-  <div style="color:hotpink;font-size: 50px"><b>O Time</b></div>
-  <hr style="width:50px;border:5px solid pink" class="w3-round">
-  <div class="w3-row-padding w3-grayscale">
-    <div class="w3-col m4 w3-margin-bottom">
-      <div class="w3-light-grey">
-        <img src="Diego.jpg" style="width:100%">
-        <div class="w3-container">
-          <h3>Diego Cunha</h3>
-          <p></p>
+        <div class="header-logo">
+            <a class="site-logo" href="index.html">
+                <img src="images/LogoMakr_0mODgq.png" alt="Homepage">
+            </a>
         </div>
-      </div>
-    </div>
-    <div class="w3-col m4 w3-margin-bottom">
-      <div class="w3-light-grey">
-        <img src="profile.jpeg" alt="Jane" style="width:100%">
-        <div class="w3-container">
-          <h3>Erica Amoedo</h3>
-          <p></p>
-        </div>
-      </div>
-    </div>
-    <div class="w3-col m4 w3-margin-bottom">
-      <div class="w3-light-grey">
-        <img src="leticia.jpg" alt="Mike" style="width:100%">
-        <div class="w3-container">
-          <h3>Leticia Vieira</h3>
-          <p></p>
-        </div>
-      </div>
-	</div>
-	
-	<div class="w3-col m4 w3-margin-bottom">
-			<div class="w3-light-grey">
-			  <img src="profile.jpeg" alt="Jane" style="width:100%">
-			  <div class="w3-container">
-				<h3>Paulo Marinho</h3>
-				<p></p>
-			  </div>
-			</div>
-	</div>
-	<div class="w3-col m4 w3-margin-bottom">
-			<div class="w3-light-grey">
-			  <img src="william.jpg" alt="Jane" style="width:100%">
-			  <div class="w3-container">
-				<h3>William</h3>
-				<p></p>
-			  </div>
-			</div>
-		  </div>
-  </div>
 
+        <nav class="row header-nav-wrap wide">
+            <ul class="header-main-nav">
+                <li class="current"><a class="smoothscroll" href="#home" title="intro">Introdução</a></li>
+                <li><a class="smoothscroll" href="#about" title="about">Sobre</a></li>
+                <li><a class="smoothscroll" href="#features" title="features">Como usar</a></li>
+                <li><a class="smoothscroll" href="#pricing" title="pricing">Equipe</a></li>
+            </ul>
+
+            <ul class="header-social">
+                <li><a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                <li><a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="https://github.com/WilliamFreitas217/PLEWD"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+            </ul>
+        </nav>
+
+        <a class="header-menu-toggle" href="#"><span>Menu</span></a>
     
-  <!-- Contact -->
-  <div class="w3-container" id="contact" style="margin-top:75px">
-		<div style="color:hotpink;font-size: 50px"><b>Contato</b></div>
-    <hr style="width:50px;border:5px solid pink" class="w3-round">
-    <form action="/action_page.php" target="_blank">
-      <div class="w3-section">
-        <label>Endereço: Av. Darcy Vargas, 1.200 - Parque Dez de Novembro, Manaus - AM, 69050-020</label>
-      </div>
-      <div class="w3-section">
-        <label>Email: plewd@gmail.com</label>
-      </div>
-      <div class="w3-section">
-        <label>Para mais detalhes, visite a nosssa página do </label>
-        <a href='https://github.com/WilliamFreitas217/PLEWD'>GitHub</a>
-      </div>
-  </div>
+    </header> <!-- end header -->
 
-<!-- End page content -->
-</div>
 
-<!-- W3.CSS Container -->
-<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>
+    <!-- home
+    ================================================== -->
+    <section id="home" class="s-home target-section">
 
-<script>
-// Script to open and close sidebar
-function w3_open() {
-  document.getElementById("mySidebar").style.display = "block";
-  document.getElementById("myOverlay").style.display = "block";
-}
- 
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
-  document.getElementById("myOverlay").style.display = "none";
-}
+        <div class="home-image-part"></div>
 
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
-</script>
+        <div class="home-content">
+
+            <div class="row home-content__main wide">
+
+                <h1>
+                Ei, man, <br>
+                brigadeiro, brigadeiro!!!
+                </h1>
+
+                <h3>
+                Meu bom, tu já pensou pedir o teu brigadeiro, tua trufa, tua empada e tals rapidão? Sem precisar sair da tua sala? Tenta nosso app, man. Aqui não tem tia da merenda. Pode baixar sem medo.
+                PLEWD! Seu protesto contra a tia!
+                </h3>
+
+                <div class="home-content__button">
+                    <a class="btn-video" href="https://player.vimeo.com/video/14592941?color=00a650&title=0&byline=0&portrait=0" data-lity>
+                        <span class="video-icon"></span>
+                    </a>
+                    <a href="#download" class="smoothscroll btn btn--primary btn--large">
+                        Baixar
+                    </a>
+                </div>
+
+            </div> <!-- end home-content__main -->
+
+            <a href="#about" class="home-scroll smoothscroll">
+                <span class="home-scroll__text">Scroll Down</span>
+                <span class="home-scroll__icon"></span>
+            </a>
+
+        </div> <!-- end home-content -->
+
+    </section> <!-- end s-home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+
+        <div class="row section-header narrower align-center" data-aos="fade-up">
+            <div class="col-full">
+                <h1 class="display-1">
+                    O aplicativo mais daora pra vc pedir seu doce... ou salgado :D!
+                </h1>
+                <p class="lead">
+                    Estamos te oferecendo uma forma de comprar e pagar só no final do mês. Sabe? Bateu aquela fome e vc tá sem grana?
+                    Nós cuidamos disso pra ti. Mas não confuda. Você ainda pode pagar imediatamente no cartão ou dinheiro.
+                </p>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row about-desc" data-aos="fade-up">
+            <div class="col-full slick-slider about-desc__slider">
+
+                <div class="about-desc__slide">
+                    <h3 class="item-title">Inteligente</h3>
+
+                    <p>
+                    Iremos sugerir comidas baseadas no seu gosto por elas.
+                    </p>
+                </div>  <!-- end about-desc__slide -->
+
+                <div class="about-desc__slide">
+                    <h3 class="item-title">Interface amigável</h3>
+
+                    <p>
+                    Peça seu doce... ou salgado... Com alguns cliques!
+                    </p>
+                </div>  <!-- end about-desc__slide -->
+
+                <div class="about-desc__slide">
+                    <h3 class="item-title">Justo</h3>
+
+                    <p>
+                    Todos os vendedores possuem a mesma capacidade de vender para os clientes. Agora, receba mais estrelas, e você ganha bonus. 
+                    O mesmo vale para o cliente. Que ganha desconto. Tédoidé?!
+                    </p>
+                </div>  <!-- end about-desc__slide -->
+
+                <div class="about-desc__slide">
+                    <h3 class="item-title">Seguro</h3>
+
+                    <p>
+                    Todos os seus dados estão seguros conosco. Vendedores com compras feitas no modo fiador, receberão direto da PLEWD. 
+                    </p>
+                </div>  <!-- end about-desc__slide -->
+
+            </div> <!-- end about-desc__slider -->
+        </div> <!-- end about-desc -->
+        
+        <!-- <div class="row about-bottom-image" data-aos="fade-up">
+            <img src="images/app-screen-1400.png" 
+                 srcset="images/app-screen-600.png 600w, 
+                         images/app-screen-1400.png 1400w, 
+                         images/app-screen-2800.png 2800w" 
+                 sizes="(max-width: 2800px) 100vw, 2800px" 
+                 alt="App Screenshots"> 
+         </div> -->
+
+    </section> <!-- end s-about -->
+
+
+    <!-- process
+    ================================================== -->
+    <section id="process" class="s-process">
+
+        <div class="row">
+            <div class="col-full text-center" data-aos="fade-up">
+                <h2 class="display-2">Como funfa?</h2>
+            </div>
+        </div>
+
+        <div class="row process block-1-4 block-m-1-2 block-tab-full">
+            <div class="col-block item-process" data-aos="fade-up">
+                <div class="item-process__text">
+                    <h3>Login</h3>
+                    <p>
+                    Faça login na sua conta
+                    </p>
+                </div>
+            </div>
+            <div class="col-block item-process" data-aos="fade-up">
+                <div class="item-process__text">
+                    <h3>Compre</h3>
+                    <p>
+                    Selecione ou pesquise seu doce... ou salgado. :D 
+                    Selecione o vendedor da sua preferência ou chame um aleatório até você.
+                    Confirme sua compra ou adicione mais itens ao seu carrinho.
+                    Receba seu produto no conforto da tua sala!
+                    </p>
+                </div>
+            </div>
+            <div class="col-block item-process" data-aos="fade-up">
+                <div class="item-process__text">
+                    <h3>Venda</h3>
+                    <p>
+                    Além de comprar, venda. Torne-se um colaborador. Não mate, não roube. Venda doce... Ou salgado. :D 
+                    </p>
+                </div>
+            </div>
+            <div class="col-block item-process" data-aos="fade-up">
+                <div class="item-process__text">
+                    <h3>Selecione sua forma de pagamento</h3>
+                    <p>
+                    Pague com dinheiro, pague com cartão ou peça na nossa conta. 
+                    </p>
+                </div>
+            </div>
+        </div> <!-- end process -->
+
+        <!-- <div class="row process-bottom-image" data-aos="fade-up">
+            <img src="images/phone-app-screens-1000.png" 
+                 srcset="images/phone-app-screens-600.png 600w, 
+                         images/phone-app-screens-1000.png 1000w, 
+                         images/phone-app-screens-2000.png 2000w" 
+                 sizes="(max-width: 2000px) 100vw, 2000px" 
+                 alt="App Screenshots"> 
+         </div> -->
+        
+    </section> <!-- end s-process -->
+
+
+    <!-- features
+    ================================================== -->
+    <section id="features" class="s-features target-section">
+
+        <div class="row section-header narrower align-center has-bottom-sep" data-aos="fade-up">
+            <div class="col-full">
+                <h1 class="display-1">
+                    Sem o APP vs Com o APP
+                </h1>
+                <p class="lead">
+                    Veja bem os benefícios de se baixar o PLEWD.
+                </p>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row bit-narrow features block-1-2 block-mob-full">
+
+            <div class="col-block item-feature" data-aos="fade-up">
+                <div class="item-feature__icon">
+                    <i class="icon-thumbs-down"></i>
+                </div>
+                <div class="item-feature__text">
+                    <h3 class="item-title">Produtos dispersos pela faculdade</h3>
+                    <p>Mano, tu já teve aquela vontade de comer uma trufa ou uma empada, mas não sabia quem vendia? 
+                        Pois é... :/
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block item-feature" data-aos="fade-up">
+                <div class="item-feature__icon">
+                    <i class="icon-thumbs-up"></i>
+                </div>
+                <div class="item-feature__text">
+                    <h3 class="item-title">Estoque de produtos em tempo real</h3>
+                    <p>Olha, aqui, por outro lado, você pode ver todos os produtos disponíveis na EST naquele exato momento.
+                        Saiba se alguém está vendendo seu produto na hora! 
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block item-feature" data-aos="fade-up">
+                <div class="item-feature__icon">
+                    <i class="icon-thumbs-down"></i>
+                </div>  
+                <div class="item-feature__text">
+                    <h3 class="item-title">Vendedor sem troco</h3>
+                    <p> Se você é rico e só tem nota de 100...
+                        Era provável ficar sem comer nada.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block item-feature" data-aos="fade-up">
+                <div class="item-feature__icon">
+                    <i class="icon-thumbs-up"></i>
+                </div>
+                <div class="item-feature__text">
+                    <h3 class="item-title">Peça troco</h3>
+                    <p> Avise o vendedor previamente. 
+                        Se ele aceitar seu pedido, 
+                        ele tem seu troco em mãos.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block item-feature" data-aos="fade-up">
+                <div class="item-feature__icon">
+                    <i class="icon-thumbs-down"></i>
+                </div>
+                <div class="item-feature__text">
+                    <h3 class="item-title">Procurando o vendedor</h3>
+                    <p> É realmente horrível, né não? 
+                        Sair procurando o cara e tu lá, morrendo de fome...
+                        Triste por que você reprovou ou levou chifre...
+                    </p>
+                </div>
+            </div>
+    
+            <div class="col-block item-feature" data-aos="fade-up">
+                <div class="item-feature__icon">
+                    <i class="icon-thumbs-up"></i>
+                </div>
+                <div class="item-feature__text">
+                    <h3 class="item-title">Comodidade</h3>
+                    <p> Mate sua fome, tristeza ou gadisse do conforto da sua sala. 
+                        E pague em dinheiro ou cartão.
+                    </p>
+                </div>
+            </div>
+
+        </div> <!-- end features -->
+
+        <div class="testimonials-wrap" data-aos="fade-up">
+
+            <div class="row">
+                <div class="col-full testimonials-header">
+                    <h2 class="display-2">Vamos lá, meu caro. Faça parte da resistência. </h2>
+                </div>
+            </div>
+
+            <div class="row testimonials">
+
+                <div class="col-full slick-slider testimonials__slider">
+
+                    <div class="testimonials__slide">
+                        <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
+                        <div class="testimonials__author">
+                            <span class="testimonials__name">Naruto Uzumaki</span>
+                            <a href="#0" class="testimonials__link">@narutouzumaki</a>
+                        </div>
+                        <p>Bora, bora, bora, bora, bora, bora, bora, bora, bora, bora, bora, bora, bora, bora, bora
+                                , bora, bora, bora, bora, bora, bora, bora, bora, bora, bora, bora, bora, bora, bora
+                                , bora, bora, bora, bora, bora, bora, bora, bora, bora, bora, bora, bora, bora, bora.
+                        </p>
+                    </div> <!-- end testimonials__slide -->
+
+                    <div class="testimonials__slide">
+                        <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
+                        <div class="testimonials__author">
+                            <span class="testimonials__name">Sasuke Uchiha</span>
+                            <a href="#0" class="testimonials__link">@sasukeuchiha</a>
+                        </div>
+                        <p>Bora, bora, bora, bora, bora, bora, bora, bora, bora, bora, bora, bora, bora, bora, bora
+                                , bora, bora, bora, bora, bora, bora, bora, bora, bora, bora, bora, bora, bora, bora
+                                , bora, bora, bora, bora, bora, bora, bora, bora, bora, bora, bora, bora, bora, bora.
+                        </p>                        
+                    </div> <!-- end testimonials__slide -->
+
+                    <div class="testimonials__slide">
+                        <img src="images/avatars/user-03.jpg" alt="Author image" class="testimonials__avatar">
+                        <div class="testimonials__author">
+                            <span class="testimonials__name">Shikamaru Nara</span>
+                            <a href="#0" class="testimonials__link">@shikamarunara</a>
+                        </div>
+                        <p>Bora, bora, bora, bora, bora, bora, bora, bora, bora, bora, bora, bora, bora, bora, bora
+                                , bora, bora, bora, bora, bora, bora, bora, bora, bora, bora, bora, bora, bora, bora
+                                , bora, bora, bora, bora, bora, bora, bora, bora, bora, bora, bora, bora, bora, bora.
+                        </p>
+                    </div> <!-- end testimonials__slide -->
+                    
+                </div> <!-- end testimonials__slider -->
+
+            </div> <!-- end testimonials -->
+
+        </div> <!-- end testimonials-wrap -->
+
+    </section> <!-- end s-features -->
+
+
+    <!-- Crew
+    ================================================== -->
+    <section id="pricing" class="s-pricing target-section">
+
+        <div class="row section-header narrower align-center" data-aos="fade-up">
+            <div class="col-full">
+                <h1 class="display-1">
+                   Nós somos o PLEWD.
+                </h1>
+                <p class="lead">
+                    Gente como você, como o seu amigo, como sua amiga, como o seu vendedor favorito, 
+                    como todo mundo.
+                </p>
+            </div>
+        </div> <!-- end section-header -->
+        <div class="row process-bottom-image align-center" data-aos="fade-up">
+            <div class="col-two" data-aos="fade-up">
+                <img src="images/william.jpg" 
+                    alt="william"
+                    style="width:100%">
+                <p class="lead">
+                    William - Tester. Se der bug, culpe ele.
+                </p>
+            </div>   
+            <div class="col-two" data-aos="fade-up">
+                <img src="images/leticia.jpg" 
+                    alt="leticia"
+                    style="width:100%">
+                <p class="lead">
+                    Leticia - Líder técnica. Outra pra culpar se der ruim.
+                </p>
+            </div> 
+            <div class="col-three" data-aos="fade-up">
+                <img src="images/diego.jpg" 
+                    alt="diego"
+                    style="width:100%">
+                <p class="lead">
+                    Diego - Gerente. O poderoso chefão.
+                </p>
+            </div>   
+            <div class="col-two" data-aos="fade-up">
+                <img src="images/john.jpg" 
+                    alt="john"
+                    style="width:100%">
+                <p class="lead">
+                    John - Estagiário. Estagiário é que nem fusível, se der problema, a gente troca.
+                </p>
+            </div>
+            <div class="col-two" data-aos="fade-up">
+                <img src="images/profile.jpeg" 
+                    alt="john"
+                    style="width:100%">
+                <p class="lead">
+                    Érica - Estagiária. Estagiário é que nem fusível, se der problema, a gente troca.
+                </p>
+            </div>
+        </div>
+
+    </section> <!-- end s-pricing -->
+
+
+    <!-- download
+    ================================================== -->
+    <section id="download" class="s-download">
+
+        <div class="row download-content">
+            <div class="col-six md-seven download-content__text pull-right" data-aos="fade-up">
+                <h1 class="display-2">
+                    Baixe Agora O Aplicativo!
+                </h1>
+                <p>
+                    PLEWD um app para facilitar a sua vida enquanto pede um simples doce... ou salgado. 
+                </p>
+                <ul class="download-content__badges">
+                    <li><a href="#0" title="" class="badge-appstore">App Store</a></li>
+                    <li><a href="#0" title="" class="badge-googleplay">Play Store</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </section> <!-- end s-download -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer class="s-footer footer">
+
+        <div class="row footer__top">
+            <div class="col-six md-full">
+                <h1 class="display-2">
+                    PLEWD
+                </h1>
+                <p class="lead">
+                    Proud! Leticia! Érica! William! Diego!
+                </p>
+            </div>
+        </div>
+
+        <div class="row footer__bottom">
+            <div class="col-five tab-full">
+                <div class="footer__logo">
+                    <a href="index.html">
+                        <img src="images/LogoMakr_0mODgq.png" alt="Homepage">
+                    </a>
+                </div>
+
+                <p>
+                    Um aplicativo para facilitar a sua vida, um aplicativo para matar a sua fome e, PRINCIPALMENTE, protestar!
+                    Vamo que vamo!
+                </p>
+
+                <ul class="footer__social">
+                    <li><a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                    <li><a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="https://github.com/WilliamFreitas217/PLEWD"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="col-six tab-full end">
+                <ul class="footer__site-links">
+                    <li><a class="smoothscroll" href="#home" title="intro">Introdução</a></li>
+                    <li><a class="smoothscroll" href="#about" title="about">Sobre</a></li>
+                    <li><a class="smoothscroll" href="#features" title="features">Como usar</a></li>
+                    <li><a class="smoothscroll" href="#pricing" title="pricing">Equipe</a></li>
+                </ul>
+
+                <p class="footer__contact">
+                    Alguma pergunta? Chama no probleminha: <br>
+                    <a href="mailto:#0" class="footer__mail-link">plewd@gmail.com</a>
+                </p>
+                <div class="cl-copyright">
+                    <span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+</span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top"></a>
+        </div>
+
+    </footer> <!-- end s-footer -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
-</html>
-
