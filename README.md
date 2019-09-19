@@ -23,7 +23,8 @@ are trying make everyone's lives easier.
   Second year student of Information Systems on 
   Amazonas's State University, one of the 
   founders of the original idea of the app
-  Intern at SEPLANCTI with experience on finances.
+  Intern at SEPLANCTI acting as Technical Support Assistant
+  Knowledge in Financial Fields acquired at Mercantil Nova Era.
 ## Erica Amoedo
   Second year student of Information Systems on 
   Amazonas's State University, one of the 
@@ -38,8 +39,6 @@ are trying make everyone's lives easier.
   Employee at Ludus. Software developer. 
   Group's specialist on Web Programming.
 
-## Paulo Marinho
-  _to be inserted_
 
 ```
 
