@@ -38,6 +38,10 @@ are trying make everyone's lives easier.
   Fourth year student of Computer Engineering. 
   Employee at Ludus. Software developer. 
   Group's specialist on Web Programming.
+## John Souza
+  Second year student of Information Systems on
+  Amazona's State University. Intern at FAEPI as Technical support
+  and web developer.
 
 
 ```
@@ -52,11 +56,11 @@ Will Freitas: wdvcf.eng16@uea.edu.br
 
 Diego Cunha: dsdc.snf18@uea.edu.br
 
-Leticia Passos: _to be inserted_
+Leticia Vieira: lmv.eng16@uea.edu.br
 
-Erica Amoedo: _to be inserted_
+Erica Amoedo: easca.snf18@uea.edu.br
 
-Paulo Marinho: _to be inserted_
+John Souza: jsrj.snf18@uea.edu.br
 
 
 _And if that doesn't work, checkout the crew's social media links:_
